@@ -1,0 +1,12 @@
+void main(){
+  int INDICE = 12, SOMA = 0, K = 1;
+
+while (K < INDICE) {
+  K = K + 1;
+  SOMA = SOMA + K;
+}
+print(SOMA);
+}
+
+// o loop será executado enquanto K for menor que INDICE , k recebera a soma dele mesmo + 1 e SOMA Recebera a soma dele mesmo mais o valor de k
+// ao final do loop SOMA = 77  
